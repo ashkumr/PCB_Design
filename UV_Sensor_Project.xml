@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Study_New\EE256\Project\UV_Sensor_Project\UV_Sensor_Project.kicad_sch</source>
+    <date>11-11-2023 07:41:08</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Test sheet</title>
+        <company>blame- ashukmr@stanford.edu</company>
+        <rev>0.1</rev>
+        <date/>
+        <source>UV_Sensor_Project.kicad_sch</source>
+        <comment number="1" value="Stanford, CA 94305-9505"/>
+        <comment number="2" value="350 Jane Stanford Way"/>
+        <comment number="3" value="Electrical Engineering Department"/>
+        <comment number="4" value="EE 156 / Stanford University"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1181-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1181-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43e3b074-8bd7-439a-9523-444c7dac7a85</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1181-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1181-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfdbe251-e5bc-4de0-8f77-b15a97fb9298</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1068-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0603_NO-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1068-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfbc3f62-4b62-489f-ad89-e239f9c17cf4</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1181-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1181-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7cd9691-04e1-49bf-9e94-a050e0d28143</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>9pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">490-11242-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0603_NO-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="490-11242-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8eeac9cf-3edf-4025-a73e-d504d727185c</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1181-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1181-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a7dcea4-9ed6-4892-bd57-c04f52024693</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1181-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1181-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b20a7280-f7f6-4930-a298-5e8f97c7dbd8</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1181-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1181-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35dfe56e-d672-4bf7-9935-b0e29d7a78f1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">1276-1181-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="1276-1181-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc9be9c1-bc85-4b12-8e99-05322bfad802</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>9pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">490-11242-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0603_NO-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="490-11242-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88035eae-18de-4454-aad4-207343ebe0a7</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">399-C0402C105K9PAC7867TR-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="399-C0402C105K9PAC7867TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc40fb73-ffad-4e08-b60d-38fff78ad433</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">399-C0402C105K9PAC7867TR-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="399-C0402C105K9PAC7867TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5755bb91-c31c-41a7-8cd7-76ecba6509d6</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal</footprint>
+      <fields>
+        <field name="description">CONN RCPT USB2.0 MICRO B SMD R/A</field>
+        <field name="mfr">Amphenol ICC (FCI)</field>
+        <field name="mfr s/n">10118193-0001LF</field>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">609-4616-2-ND</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="mfr" value="Amphenol ICC (FCI)"/>
+      <property name="mfr s/n" value="10118193-0001LF"/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="609-4616-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value="CONN RCPT USB2.0 MICRO B SMD R/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d1e0c39-fddb-4c11-902c-172aef5cc41b</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x14</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">2553-2011-1X14G00SI032B-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="2553-2011-1X14G00SI032B-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38694f55-ddc7-44bf-a985-8daf714fb5cd</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>3221-10-0300-00</value>
+      <footprint>CONN10_3221-10-0300-00_CNC</footprint>
+      <datasheet>3221-10-0300-00</datasheet>
+      <fields>
+        <field name="description">Connector Header Surface Mount 10 position 0.050" (1.27mm)</field>
+        <field name="mfr">CNC Tech</field>
+        <field name="mfr s/n">3221-10-0300-00</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">1175-1735-ND</field>
+      </fields>
+      <libsource lib="3221_Jlink" part="3221-10-0300-00" description=""/>
+      <property name="mfr" value="CNC Tech"/>
+      <property name="mfr s/n" value="3221-10-0300-00"/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="1175-1735-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value="Connector Header Surface Mount 10 position 0.050&quot; (1.27mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_keywords" value="3221-10-0300-00"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76850f0c-0bb1-4e90-b85d-03a07b1b2dd5</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Bridged Jumper</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="SAM32-rescue" part="SolderJumper_3_Bridged12-Jumper" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value=""/>
+      <property name="supplier 1 s/n" value=""/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a658208-e8c1-4560-9e4f-0b1dc61f30a6</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_vls201610hbx-1_en.pdf</datasheet>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">445-173005-2-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="INDUCTOR-SAM32" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="445-173005-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>675f02dc-c5b9-458f-abc9-d8504282facd</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LTST-C150GKT</value>
+      <footprint>LTST_C150GKT:LED_LTST-C150GKT_LTO</footprint>
+      <datasheet>LTST-C150GKT</datasheet>
+      <fields>
+        <field name="mfr">Lite-On Inc.</field>
+        <field name="mfr s/n">LTST-C150GKT</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">160-1169-2-ND</field>
+      </fields>
+      <libsource lib="LTST_C150GKT" part="LTST-C150GKT" description=""/>
+      <property name="mfr" value="Lite-On Inc."/>
+      <property name="mfr s/n" value="LTST-C150GKT"/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="160-1169-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_keywords" value="LTST-C150GKT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c449ac21-801e-49d5-b54a-41e742d6bc4f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <fields>
+        <field name="description">Bipolar (BJT) Transistor NPN 50 V 150 mA 80MHz 400 mW</field>
+        <field name="mfr">Central Semiconductor Corp</field>
+        <field name="mfr s/n">2SC1815 PBFREE</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">1514-2SC1815PBFREE-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="mfr" value="Central Semiconductor Corp"/>
+      <property name="mfr s/n" value="2SC1815 PBFREE"/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="1514-2SC1815PBFREE-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value="Bipolar (BJT) Transistor NPN 50 V 150 mA 80MHz 400 mW"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>977e02e5-596a-44f6-ab53-3a6d10c07b8c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">YAG1319TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="YAG1319TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ca924f5-c4b5-4e69-aea2-4d52e2780ad4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">YAG1319TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="YAG1319TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ab17c58-bf39-4542-9da7-4bd1e27f927f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">YAG1319TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="YAG1319TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df48df58-d3f7-467a-ac87-08c717e5bc0d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">YAG1319TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="YAG1319TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2671cedc-1e05-47ba-8472-7f6111c7a2cb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">311-100CRTR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="311-100CRTR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78887e62-5bd5-47e1-92c6-4ca8d487b471</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">RMCF0805FT1K00TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="RMCF0805FT1K00TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dc2331e-3d20-4be3-8193-a46c91078b24</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">311-4.70KCRTR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="311-4.70KCRTR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8595ecb0-4b11-4f72-b6ac-8b85e158990c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">RMCF0805FT1K00TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="RMCF0805FT1K00TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>459bd437-9574-4c30-afdf-61fe2f5fb1ba</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>180</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">RMCF0805JT180RTR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="RMCF0805JT180RTR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35fa5a60-fa0d-4f2b-bddb-ad33edf06b55</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">RMCF0805FT100KTR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="RMCF0805FT100KTR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dd5ec29-d227-49ed-979a-eaf1cbe435bc</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">RMCF0805FT100KTR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="RMCF0805FT100KTR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a61b3ca0-c14b-4f75-b398-ba28b00c04de</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>KMR231NGLFS</value>
+      <footprint>IC4_KMR231NGLFS_CNK</footprint>
+      <datasheet>KMR231NGLFS</datasheet>
+      <fields>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">CKN10246TR-ND</field>
+      </fields>
+      <libsource lib="KMR231NGLFS" part="KMR231NGLFS" description=""/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="CKN10246TR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_keywords" value="KMR231NGLFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c13bcc6-1bc1-4f76-b78d-ad8cc128c624</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PS1240P02CT3</value>
+      <footprint>PS1240P02CT3:SMT_PP02CT3_TDK</footprint>
+      <datasheet>PS1240P02CT3</datasheet>
+      <fields>
+        <field name="description">Bipolar (BJT) Transistor NPN 50 V 150 mA 80MHz 400 mW</field>
+        <field name="mfr">Central Semiconductor Corp</field>
+        <field name="mfr s/n">2SC1815 PBFREE</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">1514-2SC1815PBFREE-ND</field>
+      </fields>
+      <libsource lib="PS1240P02CT3" part="PS1240P02CT3" description=""/>
+      <property name="mfr" value="Central Semiconductor Corp"/>
+      <property name="mfr s/n" value="2SC1815 PBFREE"/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="1514-2SC1815PBFREE-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value="Bipolar (BJT) Transistor NPN 50 V 150 mA 80MHz 400 mW"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_keywords" value="PS1240P02CT3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>548ab787-0c24-42d3-9766-90588d97f13b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM3940IMP-3.3/NOPB</value>
+      <footprint>MP04A</footprint>
+      <datasheet>LM3940IMP-3.3/NOPB</datasheet>
+      <fields>
+        <field name="description">Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-4</field>
+        <field name="mfr">Texas Instruments</field>
+        <field name="mfr s/n">LM3940IMP-3.3/NOPB</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">LM3940IMP-3.3/NOPBTR-ND</field>
+      </fields>
+      <libsource lib="LM3940" part="LM3940IMP-3.3_NOPB" description=""/>
+      <property name="mfr" value="Texas Instruments"/>
+      <property name="mfr s/n" value="LM3940IMP-3.3/NOPB"/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="LM3940IMP-3.3/NOPBTR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_keywords" value="LM3940IMP-3.3/NOPB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4f60fec-bc34-4b93-bc60-70a7c9de62b1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SI1147-A10-GMR</value>
+      <footprint>QFN10_2X2_SIL</footprint>
+      <datasheet>SI1147-A10-GMR</datasheet>
+      <fields>
+        <field name="description">Optical Sensor Ambient, Ultraviolet (UV) 850nm I²C 10-WFQFN</field>
+        <field name="mfr">Silicon Labs</field>
+        <field name="mfr s/n">SI1147-A10-GMR</field>
+        <field name="supplier 1">DigiKey</field>
+        <field name="supplier 1 s/n">336-2624-2-ND</field>
+      </fields>
+      <libsource lib="Si1147" part="SI1147-A10-GMR" description=""/>
+      <property name="mfr" value="Silicon Labs"/>
+      <property name="mfr s/n" value="SI1147-A10-GMR"/>
+      <property name="supplier 1" value="DigiKey"/>
+      <property name="supplier 1 s/n" value="336-2624-2-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value="Optical Sensor Ambient, Ultraviolet (UV) 850nm I²C 10-WFQFN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_keywords" value="SI1147-A10-GMR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dd10b9b-5731-4329-b62d-c8dcca3fe998</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>BH1750FVI-TR</value>
+      <footprint>BH1750:BH1750FVI-TR_ROM</footprint>
+      <datasheet>BH1750FVI-TR</datasheet>
+      <fields>
+        <field name="description">Optical Sensor Ambient 560nm I²C 6-SMD, Flat Lead Exposed Pad</field>
+        <field name="mfr">Rohm Semiconductor</field>
+        <field name="mfr s/n">BH1750FVI-TR</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">BH1750FVITR-ND</field>
+      </fields>
+      <libsource lib="BH1750" part="BH1750FVI-TR" description=""/>
+      <property name="mfr" value="Rohm Semiconductor"/>
+      <property name="mfr s/n" value="BH1750FVI-TR"/>
+      <property name="supplier 1" value="Digi-Key"/>
+      <property name="supplier 1 s/n" value="BH1750FVITR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value="Optical Sensor Ambient 560nm I²C 6-SMD, Flat Lead Exposed Pad"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_keywords" value="BH1750FVI-TR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>126c7a0c-6976-4143-b023-0634ad142ea9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>SAM32_ATSAMD51J20A-AU-ATSAMD51J20A-AU</value>
+      <footprint>QFP50P1200X1200X120-64N</footprint>
+      <datasheet>Microchip</datasheet>
+      <fields>
+        <field name="Field4">120MHZ 1024KB Flash 64 TQFP PKG inTray 85CTemp, 64 TQFP 10x10x1mm TRAY</field>
+        <field name="Field5">TQFP-64 Microchip</field>
+        <field name="Field6">None</field>
+        <field name="Field7">ATSAMD51J20A-AU</field>
+        <field name="Field8">Unavailable</field>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">ATSAMD51J20A-AU-ND</field>
+      </fields>
+      <libsource lib="SAM32-rescue" part="ATSAMD51J20A-AU-ATSAMD51J20A-AU-SAM32" description=""/>
+      <property name="Field4" value="120MHZ 1024KB Flash 64 TQFP PKG inTray 85CTemp, 64 TQFP 10x10x1mm TRAY"/>
+      <property name="Field5" value="TQFP-64 Microchip"/>
+      <property name="Field6" value="None"/>
+      <property name="Field7" value="ATSAMD51J20A-AU"/>
+      <property name="Field8" value="Unavailable"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="ATSAMD51J20A-AU-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58fd9a3c-4786-49c5-89cc-0a5f41c74613</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>ABS05-32.768KHZ-9-T</value>
+      <footprint>ABS05_32_768KHZ_9_T:XTAL_ABS05-32.768KHZ-9-T</footprint>
+      <datasheet>https://abracon.com/Resonators/ABS05.pdf</datasheet>
+      <fields>
+        <field name="Freq">32.768</field>
+        <field name="supplier 1">Digikey</field>
+        <field name="supplier 1 s/n">535-ABS05-32.768KHZ-9-TTR-ND</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Freq" value="32.768"/>
+      <property name="mfr" value=""/>
+      <property name="mfr s/n" value=""/>
+      <property name="supplier 1" value="Digikey"/>
+      <property name="supplier 1 s/n" value="535-ABS05-32.768KHZ-9-TTR-ND"/>
+      <property name="supplier 2" value=""/>
+      <property name="supplier 2 s/n" value=""/>
+      <property name="description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UV_Sensor_Project.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5c7ca36-0307-4144-90d0-6b67c3973f5a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="3221_Jlink" part="3221-10-0300-00">
+      <docs>3221-10-0300-00</docs>
+      <footprints>
+        <fp>CONN10_3221-10-0300-00_CNC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">3221-10-0300-00</field>
+        <field name="Footprint">CONN10_3221-10-0300-00_CNC</field>
+        <field name="Datasheet">3221-10-0300-00</field>
+        <field name="mfr s/n">3221-10-0300-00</field>
+        <field name="mfr">CNC Tech</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">1175-1735-ND</field>
+        <field name="description">Connector Header Surface Mount 10 position 0.050" (1.27mm)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="BH1750" part="BH1750FVI-TR">
+      <docs>BH1750FVI-TR</docs>
+      <footprints>
+        <fp>BH1750FVI-TR_ROM</fp>
+        <fp>BH1750FVI-TR_ROM-M</fp>
+        <fp>BH1750FVI-TR_ROM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BH1750FVI-TR</field>
+        <field name="Footprint">BH1750FVI-TR_ROM</field>
+        <field name="Datasheet">BH1750FVI-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KMR231NGLFS" part="KMR231NGLFS">
+      <docs>KMR231NGLFS</docs>
+      <footprints>
+        <fp>IC4_KMR231NGLFS_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KMR231NGLFS</field>
+        <field name="Footprint">IC4_KMR231NGLFS_CNK</field>
+        <field name="Datasheet">KMR231NGLFS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM3940" part="LM3940IMP-3.3_NOPB">
+      <docs>LM3940IMP-3.3/NOPB</docs>
+      <footprints>
+        <fp>MP04A</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LM3940IMP-3.3/NOPB</field>
+        <field name="Footprint">MP04A</field>
+        <field name="Datasheet">LM3940IMP-3.3/NOPB</field>
+        <field name="mfr s/n">LM3940IMP-3.3/NOPB</field>
+        <field name="mfr">Texas Instruments</field>
+        <field name="supplier 1">Digi-Key</field>
+        <field name="supplier 1 s/n">LM3940IMP-3.3/NOPBTR-ND</field>
+        <field name="description">Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="bidirectional"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTST_C150GKT" part="LTST-C150GKT">
+      <docs>LTST-C150GKT</docs>
+      <footprints>
+        <fp>LED_LTST-C150GKT_LTO</fp>
+        <fp>LED_LTST-C150GKT_LTO-M</fp>
+        <fp>LED_LTST-C150GKT_LTO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LTST-C150GKT</field>
+        <field name="Footprint">LED_LTST-C150GKT_LTO</field>
+        <field name="Datasheet">LTST-C150GKT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Lab_3" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PS1240P02CT3" part="PS1240P02CT3">
+      <docs>PS1240P02CT3</docs>
+      <footprints>
+        <fp>SMT_PP02CT3_TDK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PS1240P02CT3</field>
+        <field name="Footprint">SMT_PP02CT3_TDK</field>
+        <field name="Datasheet">PS1240P02CT3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="SAM32-rescue" part="ATSAMD51J20A-AU-ATSAMD51J20A-AU-SAM32">
+      <docs>Microchip</docs>
+      <fields>
+        <field name="Reference">U6</field>
+        <field name="Value">SAM32_ATSAMD51J20A-AU-ATSAMD51J20A-AU</field>
+        <field name="Footprint">QFP50P1200X1200X120-64N</field>
+        <field name="Datasheet">Microchip</field>
+        <field name="Field4">120MHZ 1024KB Flash 64 TQFP PKG inTray 85CTemp, 64 TQFP 10x10x1mm TRAY</field>
+        <field name="Field5">TQFP-64 Microchip</field>
+        <field name="Field6">None</field>
+        <field name="Field7">ATSAMD51J20A-AU</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="bidirectional"/>
+        <pin num="2" name="PA01" type="bidirectional"/>
+        <pin num="3" name="PA02" type="bidirectional"/>
+        <pin num="4" name="PA03" type="bidirectional"/>
+        <pin num="5" name="PB04" type="bidirectional"/>
+        <pin num="6" name="PB05" type="bidirectional"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDDANA" type="power_in"/>
+        <pin num="9" name="PB06" type="bidirectional"/>
+        <pin num="10" name="PB07" type="bidirectional"/>
+        <pin num="11" name="PB08" type="bidirectional"/>
+        <pin num="12" name="PB09" type="bidirectional"/>
+        <pin num="13" name="PA04" type="bidirectional"/>
+        <pin num="14" name="PA05" type="bidirectional"/>
+        <pin num="15" name="PA06" type="bidirectional"/>
+        <pin num="16" name="PA07" type="bidirectional"/>
+        <pin num="17" name="PA08" type="bidirectional"/>
+        <pin num="18" name="PA09" type="bidirectional"/>
+        <pin num="19" name="PA10" type="bidirectional"/>
+        <pin num="20" name="PA11" type="bidirectional"/>
+        <pin num="21" name="VDDIO" type="power_in"/>
+        <pin num="22" name="GND1" type="power_in"/>
+        <pin num="23" name="PB10" type="bidirectional"/>
+        <pin num="24" name="PB11" type="bidirectional"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA12" type="bidirectional"/>
+        <pin num="30" name="PA13" type="bidirectional"/>
+        <pin num="31" name="PA14" type="bidirectional"/>
+        <pin num="32" name="PA15" type="bidirectional"/>
+        <pin num="33" name="GND2" type="power_in"/>
+        <pin num="34" name="VDDIO1" type="power_in"/>
+        <pin num="35" name="PA16" type="bidirectional"/>
+        <pin num="36" name="PA17" type="bidirectional"/>
+        <pin num="37" name="PA18" type="bidirectional"/>
+        <pin num="38" name="PA19" type="bidirectional"/>
+        <pin num="39" name="PB16" type="bidirectional"/>
+        <pin num="40" name="PB17" type="bidirectional"/>
+        <pin num="41" name="PA20" type="bidirectional"/>
+        <pin num="42" name="PA21" type="bidirectional"/>
+        <pin num="43" name="PA22" type="bidirectional"/>
+        <pin num="44" name="PA23" type="bidirectional"/>
+        <pin num="45" name="PA24" type="bidirectional"/>
+        <pin num="46" name="PA25" type="bidirectional"/>
+        <pin num="47" name="GND3" type="power_in"/>
+        <pin num="48" name="VDDIO2" type="power_in"/>
+        <pin num="49" name="PB22" type="bidirectional"/>
+        <pin num="50" name="PB23" type="bidirectional"/>
+        <pin num="51" name="PA27" type="bidirectional"/>
+        <pin num="52" name="RESETN" type="input"/>
+        <pin num="53" name="VDDCORE" type="bidirectional"/>
+        <pin num="54" name="GND4" type="power_in"/>
+        <pin num="55" name="VSW" type="bidirectional"/>
+        <pin num="56" name="VDDIO3" type="power_in"/>
+        <pin num="57" name="PA30" type="bidirectional"/>
+        <pin num="58" name="PA31" type="bidirectional"/>
+        <pin num="59" name="PB30" type="bidirectional"/>
+        <pin num="60" name="PB31" type="bidirectional"/>
+        <pin num="61" name="PB00" type="bidirectional"/>
+        <pin num="62" name="PB01" type="bidirectional"/>
+        <pin num="63" name="PB02" type="bidirectional"/>
+        <pin num="64" name="PB03" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SAM32-rescue" part="CAP_CERAMIC0603_NO-SAM32">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">SAM32_CAP_CERAMIC0603_NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SAM32-rescue" part="CAP_CERAMIC0805-NOOUTLINE-SAM32">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">SAM32_CAP_CERAMIC0805-NOOUTLINE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SAM32-rescue" part="INDUCTOR-SAM32">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SAM32_INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SAM32-rescue" part="SolderJumper_3_Bridged12-Jumper">
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_SolderJumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Si1147" part="SI1147-A10-GMR">
+      <docs>SI1147-A10-GMR</docs>
+      <footprints>
+        <fp>QFN10_2X2_SIL</fp>
+        <fp>QFN10_2X2_SIL-M</fp>
+        <fp>QFN10_2X2_SIL-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SI1147-A10-GMR</field>
+        <field name="Footprint">QFN10_2X2_SIL</field>
+        <field name="Datasheet">SI1147-A10-GMR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="INT" type="bidirectional"/>
+        <pin num="5" name="DNC" type="no_connect"/>
+        <pin num="6" name="LED2/CVDD" type="bidirectional"/>
+        <pin num="7" name="LED3/CVDD" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="LED1" type="bidirectional"/>
+        <pin num="10" name="DNC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2SC1815">
+      <description>0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SC1815</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="3221_Jlink">
+      <uri>D:/Study_New/EE256/Project/UV_Sensor_Project/3221_10_0300_00/KiCADv6/2023-10-25_20-44-19.kicad_sym</uri>
+    </library>
+    <library logical="BH1750">
+      <uri>D:/Study_New/EE256/Project/UV_Sensor_Project/BH1750FVI_TR/KiCADv6/2023-10-24_00-05-02.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="KMR231NGLFS">
+      <uri>D:/Study_New/EE256/Project/UV_Sensor_Project/KMR231NGLFS/KiCADv6/2023-11-01_18-36-23.kicad_sym</uri>
+    </library>
+    <library logical="LM3940">
+      <uri>D:/Study_New/EE256/Project/UV_Sensor_Project/LM3940IMP_3_3_NOPB/KiCADv6/2023-10-23_23-51-41.kicad_sym</uri>
+    </library>
+    <library logical="LTST_C150GKT">
+      <uri>D:/Study_New/EE256/Project/UV_Sensor_Project/LTST_C150GKT/KiCADv6/2023-10-24_04-14-22.kicad_sym</uri>
+    </library>
+    <library logical="PS1240P02CT3">
+      <uri>D:/Study_New/EE256/Project/UV_Sensor_Project/PS1240P02CT3/KiCADv6/2023-10-24_04-20-44.kicad_sym</uri>
+    </library>
+    <library logical="SAM32-rescue">
+      <uri>D:/Study_New/EE256/Project/SAM32v26/SAM32-rescue.kicad_sym</uri>
+    </library>
+    <library logical="Si1147">
+      <uri>D:/Study_New/EE256/Project/UV_Sensor_Project/SI1147_A10_GMR/KiCADv6/2023-10-24_00-01-56.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U3" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="LED2/CVDD" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="LED3/CVDD" pintype="bidirectional"/>
+      <node ref="U3" pin="9" pinfunction="LED1" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U6" pin="21" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U6" pin="34" pinfunction="VDDIO1" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+      <node ref="U6" pin="48" pinfunction="VDDIO2" pintype="power_in"/>
+      <node ref="U6" pin="56" pinfunction="VDDIO3" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VDDANA" pintype="power_in"/>
+    </net>
+    <net code="2" name="/USB+">
+      <node ref="J2" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U6" pin="46" pinfunction="PA25" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/USB-">
+      <node ref="J2" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U6" pin="45" pinfunction="PA24" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/~{RESET}">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="SW2" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U6" pin="52" pinfunction="RESETN" pintype="input"/>
+    </net>
+    <net code="5" name="A1">
+      <node ref="U6" pin="14" pinfunction="PA05" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="A3">
+      <node ref="U6" pin="16" pinfunction="PA07" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="A4">
+      <node ref="U6" pin="5" pinfunction="PB04" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="A5">
+      <node ref="U6" pin="6" pinfunction="PB05" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="A6">
+      <node ref="U6" pin="9" pinfunction="PB06" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="A7">
+      <node ref="U6" pin="10" pinfunction="PB07" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="A8">
+      <node ref="U6" pin="11" pinfunction="PB08" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="A9">
+      <node ref="U6" pin="12" pinfunction="PB09" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="A10">
+      <node ref="U6" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="A11">
+      <node ref="U6" pin="13" pinfunction="PA04" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="D1">
+      <node ref="U6" pin="19" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="D2">
+      <node ref="U6" pin="20" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="D3">
+      <node ref="U6" pin="29" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="D4">
+      <node ref="U6" pin="30" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="D5">
+      <node ref="U6" pin="31" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="D6">
+      <node ref="U6" pin="32" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="D7">
+      <node ref="U6" pin="35" pinfunction="PA16" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="D8">
+      <node ref="U6" pin="36" pinfunction="PA17" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="D9">
+      <node ref="U6" pin="37" pinfunction="PA18" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="D10">
+      <node ref="U6" pin="38" pinfunction="PA19" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="D11">
+      <node ref="U6" pin="41" pinfunction="PA20" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="D12">
+      <node ref="U6" pin="42" pinfunction="PA21" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="D13">
+      <node ref="U6" pin="43" pinfunction="PA22" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="D14">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U6" pin="44" pinfunction="PA23" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="D14-RST">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="30" name="D15">
+      <node ref="U6" pin="24" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="D16">
+      <node ref="U6" pin="25" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="D17">
+      <node ref="U6" pin="26" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="D18">
+      <node ref="U6" pin="27" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="D19">
+      <node ref="U6" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="D20">
+      <node ref="U6" pin="49" pinfunction="PB22" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="D21">
+      <node ref="U6" pin="50" pinfunction="PB23" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="D22">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U6" pin="39" pinfunction="PB16" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="D23">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U6" pin="40" pinfunction="PB17" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="D24">
+      <node ref="U6" pin="59" pinfunction="PB30" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="D25">
+      <node ref="U6" pin="51" pinfunction="PA27" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="D26">
+      <node ref="U6" pin="60" pinfunction="PB31" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="D27">
+      <node ref="U6" pin="23" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="D28">
+      <node ref="U6" pin="63" pinfunction="PB02" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="D29">
+      <node ref="U6" pin="64" pinfunction="PB03" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="D30">
+      <node ref="U6" pin="61" pinfunction="PB00" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="D31">
+      <node ref="U6" pin="62" pinfunction="PB01" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="LED1" pin="1" pintype="unspecified"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U6" pin="22" pinfunction="GND1" pintype="power_in"/>
+      <node ref="U6" pin="33" pinfunction="GND2" pintype="power_in"/>
+      <node ref="U6" pin="47" pinfunction="GND3" pintype="power_in"/>
+      <node ref="U6" pin="54" pinfunction="GND4" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="48" name="Net-(JP2-A)">
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="49" name="Net-(JP4-B)">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pintype="unspecified"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(Q1-B)">
+      <node ref="Q1" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="53" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="54" name="Net-(U6-PA00)">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="PA00" pintype="bidirectional"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(U6-PA01)">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="PA01" pintype="bidirectional"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(U6-PA06)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="PA06" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="Net-(U6-VDDCORE)">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="53" pinfunction="VDDCORE" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(U6-VSW)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="55" pinfunction="VSW" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="SCL">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U6" pin="18" pinfunction="PA09" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="SDA">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U6" pin="17" pinfunction="PA08" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="SWCLK">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U6" pin="57" pinfunction="PA30" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="SWDIO">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U6" pin="58" pinfunction="PA31" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="VUSB">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="64" name="nRESET">
+      <node ref="J5" pin="10" pinfunction="10" pintype="unspecified"/>
+    </net>
+    <net code="65" name="unconnected-(J2-ID-Pad4)">
+      <node ref="J2" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J4-Pin_9-Pad9)">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J4-Pin_10-Pad10)">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J4-Pin_11-Pad11)">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J5-Pad6)">
+      <node ref="J5" pin="6" pinfunction="6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J5-Pad7)">
+      <node ref="J5" pin="7" pinfunction="7" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J5-Pad8)">
+      <node ref="J5" pin="8" pinfunction="8" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J5-Pad9)">
+      <node ref="J5" pin="9" pinfunction="9" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U3-DNC-Pad5)">
+      <node ref="U3" pin="5" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U3-DNC-Pad10)">
+      <node ref="U3" pin="10" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U3-INT-Pad4)">
+      <node ref="U3" pin="4" pinfunction="INT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="7" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

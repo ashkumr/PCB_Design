@@ -1,0 +1,39 @@
+Source:,D:\Study_New\EE256\Project\UV_Sensor_Project\UV_Sensor_Project.kicad_sch,,,,,,,,,,,,,,,,,
+Date:,11-11-2023 07:41,,,,,,,,,,,,,,,,,
+Tool:,Eeschema 7.0.7,,,,,,,,,,,,,,,,,
+Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,,,,,,,
+Component Count:,75,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP,Field4,Field5,Field6,Field7,Field8,Freq,description,mfr,mfr s/n,supplier 1,supplier 1 s/n
+1,10,"C1, C2, C4, C6, C7, C8, C9",10uF,SAM32-rescue:CAP_CERAMIC0805-NOOUTLINE-SAM32,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,,,,,,,,,,,Digikey,1276-1181-2-ND
+2,2,C3,1uF,SAM32-rescue:CAP_CERAMIC0603_NO-SAM32,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,,,,,,,,,,,Digikey,1276-1068-2-ND
+3,4,"C5, C10",9pF,SAM32-rescue:CAP_CERAMIC0603_NO-SAM32,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,,,,,,,,,,,Digikey,490-11242-2-ND
+4,4,"C11, C12",1uF,SAM32-rescue:CAP_CERAMIC0805-NOOUTLINE-SAM32,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,,,,,,,,,,,Digikey,399-C0402C105K9PAC7867TR-ND
+5,1,J2,USB_B_Micro,Connector:USB_B_Micro,Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,~,,,,,,,,CONN RCPT USB2.0 MICRO B SMD R/A,Amphenol ICC (FCI),10118193-0001LF,Digikey,609-4616-2-ND
+6,1,J4,Conn_01x14,Connector_Generic:Conn_01x14,Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical,~,,,,,,,,,,,Digikey,2553-2011-1X14G00SI032B-ND
+7,1,J5,3221-10-0300-00,3221_Jlink:3221-10-0300-00,CONN10_3221-10-0300-00_CNC,3221-10-0300-00,,,,,,,,"Connector Header Surface Mount 10 position 0.050"" (1.27mm)",CNC Tech,3221-10-0300-00,Digi-Key,1175-1735-ND
+8,1,JP1,Bridged Jumper,SAM32-rescue:SolderJumper_3_Bridged12-Jumper,Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm,,,,,,,,,,,,,
+9,2,L1,10uH,SAM32-rescue:INDUCTOR-SAM32,Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_vls201610hbx-1_en.pdf,,,,,,,,,,,Digikey,445-173005-2-ND
+10,2,LED1,LTST-C150GKT,LTST_C150GKT:LTST-C150GKT,LTST_C150GKT:LED_LTST-C150GKT_LTO,LTST-C150GKT,,,,,,,,,Lite-On Inc.,LTST-C150GKT,Digi-Key,160-1169-2-ND
+11,2,Q1,2SC1815,Transistor_BJT:2SC1815,Package_TO_SOT_THT:TO-92_Inline,https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf,,,,,,,,Bipolar (BJT) Transistor NPN 50 V 150 mA 80MHz 400 mW,Central Semiconductor Corp,2SC1815 PBFREE,Digi-Key,1514-2SC1815PBFREE-ND
+12,8,"R1, R2, R3, R4",10K,Device:R_US,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,,,,,,,,Digi-Key,YAG1319TR-ND
+13,2,R5,100,Device:R_US,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,,,,,,,,Digikey,311-100CRTR-ND
+14,4,"R6, R8",1K,Device:R_US,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,,,,,,,,Digikey,RMCF0805FT1K00TR-ND
+15,2,R7,4.7K,Device:R_US,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,,,,,,,,Digikey,311-4.70KCRTR-ND
+16,2,R9,180,Device:R_US,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,,,,,,,,Digikey,RMCF0805JT180RTR-ND
+17,4,"R10, R11",100K,Device:R_US,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,,,,,,,,Digikey,RMCF0805FT100KTR-ND
+18,2,SW2,KMR231NGLFS,KMR231NGLFS:KMR231NGLFS,IC4_KMR231NGLFS_CNK,KMR231NGLFS,,,,,,,,,,,Digikey,CKN10246TR-ND
+19,2,U1,PS1240P02CT3,PS1240P02CT3:PS1240P02CT3,PS1240P02CT3:SMT_PP02CT3_TDK,PS1240P02CT3,,,,,,,,Bipolar (BJT) Transistor NPN 50 V 150 mA 80MHz 400 mW,Central Semiconductor Corp,2SC1815 PBFREE,Digi-Key,1514-2SC1815PBFREE-ND
+20,2,U2,LM3940IMP-3.3/NOPB,LM3940:LM3940IMP-3.3_NOPB,MP04A,LM3940IMP-3.3/NOPB,,,,,,,,Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-4,Texas Instruments,LM3940IMP-3.3/NOPB,Digi-Key,LM3940IMP-3.3/NOPBTR-ND
+21,1,U3,SI1147-A10-GMR,Si1147:SI1147-A10-GMR,QFN10_2X2_SIL,SI1147-A10-GMR,,,,,,,,"Optical Sensor Ambient, Ultraviolet (UV) 850nm I²C 10-WFQFN",Silicon Labs,SI1147-A10-GMR,DigiKey,336-2624-2-ND
+22,2,U4,BH1750FVI-TR,BH1750:BH1750FVI-TR,BH1750:BH1750FVI-TR_ROM,BH1750FVI-TR,,,,,,,,"Optical Sensor Ambient 560nm I²C 6-SMD, Flat Lead Exposed Pad",Rohm Semiconductor,BH1750FVI-TR,Digi-Key,BH1750FVITR-ND
+23,1,U6,SAM32_ATSAMD51J20A-AU-ATSAMD51J20A-AU,SAM32-rescue:ATSAMD51J20A-AU-ATSAMD51J20A-AU-SAM32,QFP50P1200X1200X120-64N,Microchip,,"120MHZ 1024KB Flash 64 TQFP PKG inTray 85CTemp, 64 TQFP 10x10x1mm TRAY",TQFP-64 Microchip,None,ATSAMD51J20A-AU,Unavailable,,,,,Digikey,ATSAMD51J20A-AU-ND
+24,2,X1,ABS05-32.768KHZ-9-T,Device:Crystal,ABS05_32_768KHZ_9_T:XTAL_ABS05-32.768KHZ-9-T,https://abracon.com/Resonators/ABS05.pdf,,,,,,,32.768,,,,Digikey,535-ABS05-32.768KHZ-9-TTR-ND
+25,2,"C20, C21",6pF,SAM32-rescue:CAP_CERAMIC0603_NO-SAM32,Capacitor_SMD:C_0603_1005Metric,,,,,,,,,,,,Digikey,478-06035A6R0B4T2ATR-ND
+26,2,"C22, C23",7pF,SAM32-rescue:CAP_CERAMIC0603_NO-SAM32,Capacitor_SMD:C_0603_1005Metric,,,,,,,,,,,,Digikey,13-CC0603BRNPO9BN7R0TR-ND
+27,2,"C24, C25",8pF,SAM32-rescue:CAP_CERAMIC0603_NO-SAM32,Capacitor_SMD:C_0603_1005Metric,,,,,,,,,,,,Digikey,399-CBR06C809B5GACTR-ND
+28,2,"C26, C27",10pF,SAM32-rescue:CAP_CERAMIC0603_NO-SAM32,Capacitor_SMD:C_0603_1005Metric,,,,,,,,,,,,Digikey,478-06035A100BAT2ACT-ND
+29,2,"C28, C29",12pF,SAM32-rescue:CAP_CERAMIC0603_NO-SAM32,Capacitor_SMD:C_0603_1005Metric,,,,,,,,,,,,Digikey,311-3885-1-ND
+30,1,U3,SI1146-M01-GMR,SI1146-M01-GMR,QFN10_2X2_SIL,SI1146-M01-GMR,,,,,,,,"Optical Sensor Ambient, Ultraviolet (UV) 850nm I²C 10-WFQFN",Silicon Labs,SI1146-M01-GMR,DigiKey,336-3264-1-ND
